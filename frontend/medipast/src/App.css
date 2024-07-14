@@ -1,0 +1,188 @@
+.background{
+  background: url('../public/backgroundimg.jpg') no-repeat center center fixed;
+  opacity: 0.8; 
+  background-size: cover; 
+ width: 100vw;
+ height: 100vh;
+ 
+
+}
+.bg1{
+  background: url('../public/backgroundimg.jpg') no-repeat center center fixed;
+  opacity: 0.8; 
+  background-size: cover; 
+ width: 100vw;
+ height: 200vh;
+ 
+}
+.bg2{
+  background: url('../public/backgroundimg.jpg') no-repeat center center fixed;
+  opacity: 0.8; 
+  background-size: cover; 
+ width: 100vw;
+ height: 200vh;
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.registration-container, .login-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-top: 400px;
+  width: 100%;
+}
+
+.login-container{
+  margin-top: 200px;
+}
+
+.registration-container h2, .login-container h2 {
+  margin-bottom: 20px;
+}
+
+.registration-container label, .login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration-container input, .login-container input, .registration-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-container button, .login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #620662;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-container button:hover, .login-container button:hover {
+  background-color: #520552;
+}
+
+.create {
+  padding: 10px 20px;
+  background-color: #620662;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.account {
+  text-align: center;
+}
+
+.emergency {
+  margin-bottom: 10px;
+}
+
+.doc-container{
+  display: flex;
+  text-align: left;
+  background-image: linear-gradient(rgb(200, 173, 232), rgb(176, 134, 227));
+  height: 90vh;
+  width: 100vw;
+  margin-top: 200px;
+}
+
+.search-container{
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  margin: 20px;
+  font-size: 0.8em;
+  border-radius: 30px;
+}
+
+.search-container{
+  font-size: 2.5em;
+  padding: 40px;
+}
+
+.search-container h2{
+  margin: 15px;
+}
+
+.search-container label{
+  margin: 35px 15px 0;
+}
+
+.search-container input{
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  height: 50px;
+  width: 60%;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  position: relative; /* Ensure relative positioning for absolute icon */
+  padding-right: 40px; /* Space for icon */
+}
+
+.search-container .search-icon {
+  position: absolute;
+  right: 200px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #3e6bad;
+  cursor: pointer;
+  z-index: 1; /* Ensure icon appears on top */
+}
+
+.doc-img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+}
+
+.doc-img-container img{
+  clip-path: circle();
+  width: 500px;
+  height: 500px;
+}
+
+.patient-info{
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  
+}
+
+.aboutus{
+  display: flex;
+  margin: 20px;
+}
+
+.aboutus h2{
+  margin: 20px;
+}
